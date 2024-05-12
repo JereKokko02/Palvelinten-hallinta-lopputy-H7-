@@ -1,1 +1,22 @@
+install_pkgs:
+  pkg.installed:
+    - pkgs:
+      - git
+      - micro
+      - net-tools
+      - cowsay
+      - ufw
+      - openssh-server
+      - vim
+      - curl
+      - snapd
 
+apache2:
+   pkg.installed: []
+   service.running:
+     - require:
+       - pkg: apache2
+
+/var/www/html/index.html:
+   file.managed:
+     - source: salt://mymodule/index.html

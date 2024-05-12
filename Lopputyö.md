@@ -65,3 +65,4 @@ Itse T002 koneen apache2 verkkopalvelimen asennuksen onnistumisen ja defaulttisi
 
 ## Loppuyhteenveto
 
+Projekti on hieman sisällöltään suppea, mutta siinä sain kuitenkin sopivasti haastettua itseäni. Saltin käytössä on minulla ollut ongelmia itse oman osaamisen sekä käyttämäni kaluston välillä. Projekti oli kuitenkin onnistunut ja siinä suoritetut muutokset tosissaan saatiin ajettua minion-koneelle onnistuneesti. Tässä tuli siis tehtyä idempotenssi, infraa koodina sekä yksi totuus muutosten tilasta.

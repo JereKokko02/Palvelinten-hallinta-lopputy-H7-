@@ -29,11 +29,13 @@ Tähän init.sls tiedostoon kirjoitin ne paketit jotka halusin asennettavaksi uu
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/8ee5728c-564c-49bb-941e-e5c9591f1a18)
 
-+ apache
+Kun olin tyytyväinen pakettilistaan, aloitin itse apache2 palvelimen konfiguroinnin samaan tiedostoon. Tämä tapahtui siten, että kirjasin seuraavat katkelmat pakettilistauksen alapuolelle:
+
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/ec5c2941-f59e-47c7-bfa7-b336178f26fd)
 
 
-
+## Selitettävää!
+- 
 
 
 

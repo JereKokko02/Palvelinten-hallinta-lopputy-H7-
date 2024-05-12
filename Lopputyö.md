@@ -35,7 +35,13 @@ Kun olin tyytyväinen pakettilistaan, aloitin itse apache2 palvelimen konfiguroi
 
 
 ## Selitettävää!
-- 
+- Ensimmäinen apache2 -pätkä asentaa uudelle koneelle apache2 verkkopalvelimen ja tarkistaa että se on käynnissä.
+- Tämän jälkeen moduuli korvaa apachen defaultti verkkosivun ja muokkaa sen haluamakseni. Tämä kyseinen tiedosto luodaan seuraavassa vaiheessa.
+
+Kun olin saanut kirjoitettua init.sls tiedoston valmiiksi, täytyi minun vielä luoda index.html -niminen tektitiedosto joka tulisi korvaamaan apachen defaulttisivun.
+Tämä tapahtui luomalla samaan /srv/salt/mymodule hakemistoon "index.html" -niminen tektitiedosto jonka sisältö oli seuraava:
+
+
 
 
 

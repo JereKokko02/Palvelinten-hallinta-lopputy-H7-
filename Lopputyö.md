@@ -1,6 +1,6 @@
 # Huomioitavaa ennen projektin aloitusta/testausta!
 - Tämä projekti vaatii taitoa vagrantin ja saltin käytössä sekä virtuaalikoneympäristön joka on luotu tätä ohjetta noudattaen: https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/
-- Tässä toimiympäristössä on kaksi konetta: T001 sekä T002. Asensin Salt-masterin koneelle T001 ja Salt-minionin koneelle T002. Tässä ympäristössä ei sinäänsä ole väliä kumpi koneista on masteri ja kumpi minioni.
+- Tässä toimiympäristössä on kaksi konetta: T001 sekä T002. Asensin Salt-masterin koneelle T001 ja Salt-minionin koneelle T002. Tässä ympäristössä ei sinäänsä ole väliä kumpi koneista on masteri ja kumpi minioni. T001 koneen IP-osoite on 192.168.88.101 ja T002 koneen IP-osoite on 192.168.88.102.
 - Tässä tehtävässä on tehty avainten vaihto koneiden välillä. Jotta tätä ohjetta pystyy noudattamaan kotona, tulee osata suorittaa Salt-avainten vaihto koneiden välillä. Mikäli tämä ei ole tuttua, voit katsoa ohjeen Salt-projektin sivuilta: https://docs.saltproject.io/salt/install-guide/en/latest/topics/accept-keys.html
  
 
@@ -12,6 +12,11 @@
 
 
 
+# Aloitus
+
+Halusin tehdä oman salt -moduulin joka asentaa linux-minion koneella muutamia haluttuja ohjelmia, sekä vaihtaa apache2 verkkopalvelimen defaultsivun. Tämä moduuli on siis tarkoitettu vain omaan käyttööni nopeuttamaan virtuaalikoneiden konffaamista.
+
+Aloitin tehtävän luomalla T001 master koneelle uuden hakemiston: /srv/salt/mymodule :
 
 
 

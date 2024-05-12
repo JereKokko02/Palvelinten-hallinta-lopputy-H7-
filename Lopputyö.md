@@ -48,6 +48,9 @@ Tämä tapahtui luomalla samaan /srv/salt/mymodule hakemistoon "index.html" -nim
 
 Nyt kaikki tarpeellinen oli suoritettu ja pystyin testaamaan moduulin toimivuutta. tämä tapahtui ajamalla T001 koneella komento "Sudo salt '*' state.apply mymodule"
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/da9c8a9e-66da-4bba-b81f-d25be73ba75f)
+
+
 
 
 

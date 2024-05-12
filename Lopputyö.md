@@ -41,6 +41,7 @@ Kun olin tyytyväinen pakettilistaan, aloitin itse apache2 palvelimen konfiguroi
 Kun olin saanut kirjoitettua init.sls tiedoston valmiiksi, täytyi minun vielä luoda index.html -niminen tektitiedosto joka tulisi korvaamaan apachen defaulttisivun.
 Tämä tapahtui luomalla samaan /srv/salt/mymodule hakemistoon "index.html" -niminen tektitiedosto jonka sisältö oli seuraava:
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/4c19f08d-8d60-41c2-99d1-e20eb5ddc849)
 
 
 

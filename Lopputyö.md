@@ -50,21 +50,11 @@ Nyt kaikki tarpeellinen oli suoritettu ja pystyin testaamaan moduulin toimivuutt
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/da9c8a9e-66da-4bba-b81f-d25be73ba75f)
 
+Tämän jälkeen saltti palautta seuraavat tiedot: 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Moduulin ajo ja sen muutokset:
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/204c38ba-bcdc-4e68-994a-16cd6aa09808)
+
+## PS. Syy miksi muutoksia on näin vähän johtuu siitä, että osa paketeista oli jo asennettu kyseiselle minionille joten saltti palautti tiedot vain uusista muutoksista.
 
 
 

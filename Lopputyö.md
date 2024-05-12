@@ -18,6 +18,21 @@ Halusin tehdä oman salt -moduulin joka asentaa linux-minion koneella muutamia h
 
 Aloitin tehtävän luomalla T001 master koneelle uuden hakemiston: /srv/salt/mymodule :
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/c8fa218a-8285-4721-ba30-191857c81043)
+
+Tämän jälkeen loin kyseiseen hakemistoon init.sls -tiedoston:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/ee569d60-a9ed-4537-b92f-a86bd0102dc6)
+
+
+Tähän init.sls tiedostoon kirjoitin ne paketit jotka halusin asennettavaksi uudelle minion koneella kun kyseinen moduuli ajetaan:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/8ee5728c-564c-49bb-941e-e5c9591f1a18)
+
++ apache
+![image](https://github.com/JereKokko02/Palvelinten-hallinta-lopputy-H7-/assets/165003744/ec5c2941-f59e-47c7-bfa7-b336178f26fd)
+
+
 
 
 

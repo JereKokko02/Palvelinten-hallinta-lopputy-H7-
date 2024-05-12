@@ -8,7 +8,7 @@
 
 - Tämä projekti on tehty omalla henkilökohtaisella läppärilläni jossa on asennettuna windows 10 käyttöjärjestelmä.
 - Tässä projektissä käytetään Vagranttia, sekä SaltStackiä.
-- Tämän projektin tarkoituksena oli tehdä jotakin omaa käyttäen Salttia sekä Palvelintenhallinta -kurssilla (https://terokarvinen.com/palvelinten-hallinta/) opittuja asioita.
+- Tämän projektin tarkoituksena oli tehdä jotakin omaa käyttäen Salttia sekä Palvelintenhallinta -kurssilla opittuja asioita. (https://terokarvinen.com/palvelinten-hallinta/).
 
 
 

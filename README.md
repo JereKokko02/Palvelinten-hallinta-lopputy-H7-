@@ -1,2 +1,1 @@
-# Palvelinten-hallinta-lopputy-H7-
-Palvelinten hallinta lopputyö (H7)
+# Huom! Tämä kyseinen projekti on tarkoitettu Palvelinten-hallinta kurssilla opittujen taitojen harjoitteluun sekä omaan testailuun!

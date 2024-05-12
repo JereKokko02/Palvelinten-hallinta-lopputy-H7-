@@ -1,5 +1,14 @@
+# Huomioitavaa ennen projektin aloitusta/testausta!
+- Tämä projekti vaatii taitoa vagrantin ja saltin käytössä sekä virtuaalikoneympäristön joka on luotu tätä ohjetta noudattaen: https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/
+- Tässä toimiympäristössä on kaksi konetta: T001 sekä T002. Asensin Salt-masterin koneelle T001 ja Salt-minionin koneelle T002. Tässä ympäristössä ei sinäänsä ole väliä kumpi koneista on masteri ja kumpi minioni.
+- Tässä tehtävässä on tehty avainten vaihto koneiden välillä. Jotta tätä ohjetta pystyy noudattamaan kotona, tulee osata suorittaa Salt-avainten vaihto koneiden välillä. Mikäli tämä ei ole tuttua, voit katsoa ohjeen Salt-projektin sivuilta: https://docs.saltproject.io/salt/install-guide/en/latest/topics/accept-keys.html
+ 
 
+# Tärkeät tiedot:
 
+- Tämä projekti on tehty omalla henkilökohtaisella läppärilläni jossa on asennettuna windows 10 käyttöjärjestelmä.
+- Tässä projektissä käytetään Vagranttia, sekä SaltStackiä.
+- Tämän projektin tarkoituksena oli tehdä jotakin omaa käyttäen Salttia sekä Palvelintenhallinta -kurssilla (https://terokarvinen.com/palvelinten-hallinta/) opittuja asioita.
 
 
 
